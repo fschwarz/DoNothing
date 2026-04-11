@@ -5,8 +5,14 @@ public class App : MonoBehaviour
 {
     public void Start()
     {
-        ScreenInteractionHandler.Instance.OnSwipe += Swipe;
+        ScreenInteractionHandler.Instance.OnSwipeFinished += SwipeFinished;
         ScreenInteractionHandler.Instance.OnTap += Tap;
+        ScreenInteractionHandler.Instance.OnSwipingInProgress += Swiping;
+    }
+
+    public virtual void Swiping(Vector2 swipeProgress)
+    {
+        
     }
 
     public virtual void Tap(Vector2 tapPosition)
@@ -14,7 +20,7 @@ public class App : MonoBehaviour
         
     }
 
-    public virtual void Swipe(Vector2 swipeInteraction)
+    public virtual void SwipeFinished(Vector2 swipeInteraction)
     {
         
     }

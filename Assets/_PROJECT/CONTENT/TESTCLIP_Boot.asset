@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceebf029ca9cc9c489e26d78952b2372, type: 3}
+  m_Name: TESTCLIP_Boot
+  m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
+  frames:
+  - {fileID: 8573853883920636706, guid: 31be43598589ef34f98d9afb12e1c0e4, type: 3}
+  - {fileID: -1866948971309319929, guid: e95220bc9c2e0784298c96d4e8ac246c, type: 3}
+  - {fileID: -2251062913328057060, guid: 17fb7dc1e2a39a84ba6eef68e3e68e64, type: 3}
+  - {fileID: -3129184062650217629, guid: df69b4f84fc03424cbd3712c26374166, type: 3}
+  - {fileID: 6887876725376060656, guid: ee18072f15bf2af4fa705316bd6d1713, type: 3}
+  - {fileID: -2369661963680536411, guid: 2f2fd47cd849200498a85497eead5b78, type: 3}
+  audioClip: {fileID: 8300000, guid: c54ab2981202cc047a405e1b3416f3f9, type: 3}
+  secondsPerFrame: 0.2
+  title: BOOT! #Politics
+  likeCount: 65
+  commentCount: 23
+  content: 4
