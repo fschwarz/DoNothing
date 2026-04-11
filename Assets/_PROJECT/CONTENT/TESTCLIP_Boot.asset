@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ceebf029ca9cc9c489e26d78952b2372, type: 3}
   m_Name: TESTCLIP_Boot
   m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
+  title: BOOT! #Politics
+  content: 4
   frames:
   - {fileID: 21300000, guid: 31be43598589ef34f98d9afb12e1c0e4, type: 3}
   - {fileID: 21300000, guid: e95220bc9c2e0784298c96d4e8ac246c, type: 3}
@@ -21,7 +23,5 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 2f2fd47cd849200498a85497eead5b78, type: 3}
   audioClip: {fileID: 8300000, guid: c54ab2981202cc047a405e1b3416f3f9, type: 3}
   secondsPerFrame: 0.2
-  title: BOOT! #Politics
   likeCount: 65
   commentCount: 23
-  content: 4

@@ -1,0 +1,949 @@
+fileFormatVersion: 2
+guid: 483ffd63274f3a844beccaf4580ebe52
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6528772331852994047
+    second: flicktok_0
+  - first:
+      213: -7918756389280643848
+    second: flicktok_1
+  - first:
+      213: -6228858835255720252
+    second: flicktok_2
+  - first:
+      213: -2148217653139607224
+    second: flicktok_3
+  - first:
+      213: 571843917010841435
+    second: flicktok_4
+  - first:
+      213: 1580596222600340946
+    second: flicktok_5
+  - first:
+      213: 1700056389005310432
+    second: flicktok_6
+  - first:
+      213: -7642681230591694012
+    second: flicktok_7
+  - first:
+      213: 4113562829180529018
+    second: flicktok_8
+  - first:
+      213: -5410177963009183038
+    second: flicktok_9
+  - first:
+      213: 4341033575664730479
+    second: flicktok_10
+  - first:
+      213: -2492612839600919784
+    second: flicktok_11
+  - first:
+      213: 4665883285931413479
+    second: flicktok_12
+  - first:
+      213: -123782780974481972
+    second: flicktok_13
+  - first:
+      213: 8027059346703111125
+    second: flicktok_14
+  - first:
+      213: 8015851030142397698
+    second: flicktok_15
+  - first:
+      213: 1741743413782638570
+    second: flicktok_16
+  - first:
+      213: -4449097452755054580
+    second: flicktok_17
+  - first:
+      213: -793485724514005646
+    second: flicktok_18
+  - first:
+      213: -5309849637828855453
+    second: flicktok_19
+  - first:
+      213: -1070257824124529331
+    second: flicktok_20
+  - first:
+      213: 7932554624668145847
+    second: flicktok_21
+  - first:
+      213: -3823970927203694194
+    second: flicktok_22
+  - first:
+      213: 5648352468809057951
+    second: flicktok_23
+  - first:
+      213: 5149241395606651678
+    second: flicktok_24
+  - first:
+      213: 4183604016282311115
+    second: flicktok_25
+  - first:
+      213: 2050577595470773762
+    second: flicktok_26
+  - first:
+      213: 5166666359329375098
+    second: flicktok_27
+  - first:
+      213: 2535914763822881428
+    second: flicktok_28
+  - first:
+      213: 371548161287432927
+    second: flicktok_29
+  - first:
+      213: 9181516948868805414
+    second: flicktok_30
+  - first:
+      213: -2602208120354741126
+    second: flicktok_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 2
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flicktok_0
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1276
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff51f7b48dbda9a50800000000000000
+      internalID: 6528772331852994047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_1
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1277
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f48212f40dea1290800000000000000
+      internalID: -7918756389280643848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_2
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1274
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6878824e5ae89a0800000000000000
+      internalID: -6228858835255720252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_3
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1274
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 841f36c1d6fff22e0800000000000000
+      internalID: -2148217653139607224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_4
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1285
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5f266443099fe700800000000000000
+      internalID: 571843917010841435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_5
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1273
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5ea6dd3e76fe510800000000000000
+      internalID: 1580596222600340946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_6
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1272
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e97bcc4740d79710800000000000000
+      internalID: 1700056389005310432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_7
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1274
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b6907d9edbfe590800000000000000
+      internalID: -7642681230591694012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_8
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1208
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a796e8a399f461930800000000000000
+      internalID: 4113562829180529018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_9
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1212
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c2f0379ecf2be4b0800000000000000
+      internalID: -5410177963009183038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_10
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1212
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f614a8b89037e3c30800000000000000
+      internalID: 4341033575664730479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_11
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1213
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81b620d24d5786dd0800000000000000
+      internalID: -2492612839600919784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_12
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1211
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7efcf5da02c80c040800000000000000
+      internalID: 4665883285931413479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_13
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1211
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccdb4be673c384ef0800000000000000
+      internalID: -123782780974481972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_14
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1211
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d3d73752f7d56f60800000000000000
+      internalID: 8027059346703111125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_15
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1212
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20d2618ca060e3f60800000000000000
+      internalID: 8015851030142397698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_16
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1204
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aefe36c186aeb2810800000000000000
+      internalID: 1741743413782638570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_17
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1213
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0090756071a142c0800000000000000
+      internalID: -4449097452755054580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_18
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1213
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27dcff700f8fcf4f0800000000000000
+      internalID: -793485724514005646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_19
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1213
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 369797e13ef9f46b0800000000000000
+      internalID: -5309849637828855453
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_20
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1197
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4599feed2ea521f0800000000000000
+      internalID: -1070257824124529331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_21
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1213
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b81ab41768161e60800000000000000
+      internalID: 7932554624668145847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_22
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1213
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e894a94b3b68eeac0800000000000000
+      internalID: -3823970927203694194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_23
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1210
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f968095e4aaf26e40800000000000000
+      internalID: 5648352468809057951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_24
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 858
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e130fd774c7c57740800000000000000
+      internalID: 5149241395606651678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_25
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 774
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc99767efa52f0a30800000000000000
+      internalID: 4183604016282311115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_26
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 703
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 20ef86a657d157c10800000000000000
+      internalID: 2050577595470773762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_27
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 625
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a73c9ccfdafa3b740800000000000000
+      internalID: 5166666359329375098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_28
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 539
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ad456ba01613320800000000000000
+      internalID: 2535914763822881428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_29
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 456
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdaac7a8511082500800000000000000
+      internalID: 371548161287432927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_30
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 418
+        width: 350
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623bd8ce40d4b6f70800000000000000
+      internalID: 9181516948868805414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flicktok_31
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 412
+        width: 103
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a746e9a608913ebd0800000000000000
+      internalID: -2602208120354741126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flicktok_0: 6528772331852994047
+      flicktok_1: -7918756389280643848
+      flicktok_10: 4341033575664730479
+      flicktok_11: -2492612839600919784
+      flicktok_12: 4665883285931413479
+      flicktok_13: -123782780974481972
+      flicktok_14: 8027059346703111125
+      flicktok_15: 8015851030142397698
+      flicktok_16: 1741743413782638570
+      flicktok_17: -4449097452755054580
+      flicktok_18: -793485724514005646
+      flicktok_19: -5309849637828855453
+      flicktok_2: -6228858835255720252
+      flicktok_20: -1070257824124529331
+      flicktok_21: 7932554624668145847
+      flicktok_22: -3823970927203694194
+      flicktok_23: 5648352468809057951
+      flicktok_24: 5149241395606651678
+      flicktok_25: 4183604016282311115
+      flicktok_26: 2050577595470773762
+      flicktok_27: 5166666359329375098
+      flicktok_28: 2535914763822881428
+      flicktok_29: 371548161287432927
+      flicktok_3: -2148217653139607224
+      flicktok_30: 9181516948868805414
+      flicktok_31: -2602208120354741126
+      flicktok_4: 571843917010841435
+      flicktok_5: 1580596222600340946
+      flicktok_6: 1700056389005310432
+      flicktok_7: -7642681230591694012
+      flicktok_8: 4113562829180529018
+      flicktok_9: -5410177963009183038
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -13,12 +13,14 @@ namespace _PROJECT.Scripts
         public List<VideoSwipeContent> contents = new List<VideoSwipeContent>();
         public VideoSwipeContentPlayer currentContentPlayer,nextContentPlayer;
         public VideoSwipeContent queuedContent;
+        public VideoSwipeContent currentContent;
         public bool preloaded = false;
         public float ignoreSwipesCD = 0.01f;
         public TMP_Text likeCountText;
         public TMP_Text commentCountText;
         public TMP_Text titleText;
 
+        private AudioSource _source;
         public virtual VideoSwipeContent GetNextContent()
         {
             return contents[Random.Range(0, contents.Count)];
