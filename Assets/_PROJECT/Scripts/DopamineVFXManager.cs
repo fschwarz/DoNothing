@@ -8,9 +8,6 @@ public class DopamineVFXManager : MonoBehaviour
     private static readonly int BaseLevel = Shader.PropertyToID("_BaseLevel");
     private static readonly int NightAmount = Shader.PropertyToID("_NightAmount");
 
-    [Range(0f,1f)]
-    public float dopamine;
-
     public Renderer dopamineBar;
     public Volume postProcessingVolume;
     public AnimationCurve saturationCurve;
@@ -29,6 +26,7 @@ public class DopamineVFXManager : MonoBehaviour
 
     void Update()
     {
+        float dopamine = GameManager.Instance.Dopamine;
         colorAdjustments.saturation.value = saturationCurve.Evaluate(dopamine)*200-100;
         dopamineBar.material.SetFloat(BaseLevel,dopamine);
         hand.localPosition = new Vector3(Mathf.PerlinNoise(Time.time*shakingFrequency+2,dopamine+1.2125f),Mathf.PerlinNoise(Time.time*shakingFrequency,dopamine)) * (dopamine * 3 * shakingIntensity);
