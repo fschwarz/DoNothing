@@ -25,7 +25,7 @@ namespace _PROJECT.Scripts
         {
             return contents[Random.Range(0, contents.Count)];
         }
-        
+
         public override void SwipeFinished(Vector2 swipeInteraction)
         {
             base.SwipeFinished(swipeInteraction);
