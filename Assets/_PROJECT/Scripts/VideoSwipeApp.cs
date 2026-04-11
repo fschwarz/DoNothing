@@ -28,7 +28,7 @@ namespace _PROJECT.Scripts
         {
             base.SwipeFinished(swipeInteraction);
             Debug.Log("SwipeFinished " + swipeInteraction);
-            bool goUp = swipeInteraction.y > 0.3f;
+            bool goUp = swipeInteraction.y > 3f;
             if (goUp)
             {
                 commentCountText.text = "";
@@ -60,7 +60,7 @@ namespace _PROJECT.Scripts
         {
             if (ignoreSwipesCD > 0) return;
             base.Swiping(swipeProgress);
-            video.anchoredPosition = new Vector2(video.anchoredPosition.x, swipeProgress.y*video.rect.height);
+            video.anchoredPosition = new Vector2(video.anchoredPosition.x, swipeProgress.y);
             if (preloaded) return;
             Debug.Log("Preloading");
             queuedContent = GetNextContent();
