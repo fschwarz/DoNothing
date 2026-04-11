@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceebf029ca9cc9c489e26d78952b2372, type: 3}
+  m_Name: CatVideo
+  m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
+  title: Can you believe this guy? He dose this EVERY TIME ...
+  content: 4097
+  frames:
+  - {fileID: 21300000, guid: 530bcd2db44a5ab41bafa703774e314f, type: 3}
+  - {fileID: 21300000, guid: 4fe8627919423a24c8bd1ab9883d3a68, type: 3}
+  - {fileID: 21300000, guid: 7d8c0ff7a7470a9418f0ee4a91c9c0a5, type: 3}
+  - {fileID: 21300000, guid: eeeaa0a3359b27746add277f79cc80fa, type: 3}
+  - {fileID: 21300000, guid: bca061cc5793c18469a0319800e01281, type: 3}
+  - {fileID: 21300000, guid: 5d5cb940ddc7f8840838c67ac2438b4f, type: 3}
+  - {fileID: 21300000, guid: 2a1a52102e84ae040b6a0609b4e49cd9, type: 3}
+  - {fileID: 21300000, guid: f30cb94db74ad6144b35c79c216e5847, type: 3}
+  audioClip: {fileID: 8300000, guid: 031ae4c58925eca4f81493a8f03a45a2, type: 3}
+  secondsPerFrame: 0.1
+  likeCount: 29000
+  commentCount: 120

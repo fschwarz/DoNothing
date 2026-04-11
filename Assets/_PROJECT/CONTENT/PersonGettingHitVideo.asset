@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceebf029ca9cc9c489e26d78952b2372, type: 3}
+  m_Name: PersonGettingHitVideo
+  m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
+  title: They never saw it coming...
+  content: 6272
+  frames:
+  - {fileID: -7798266039770368857, guid: 5c49064bb69325e4b9bcfac06324c293, type: 3}
+  - {fileID: 2530915623940267177, guid: 9e5c048192098314082bc76af95447ab, type: 3}
+  - {fileID: -4732845462039319125, guid: 05c276ec1b934dc46907595b883f8e54, type: 3}
+  - {fileID: 1066040003869847959, guid: 781b8556b998c934caa05cd856855ea7, type: 3}
+  - {fileID: -8873641717000328547, guid: fb56183defef9114eb5a084f0f5b46c6, type: 3}
+  - {fileID: -6633134051911113598, guid: 336820e8affc2b047a8698a86b5a94a1, type: 3}
+  - {fileID: 2082340619998869638, guid: d56697c129107a7499238790fcb5e6ed, type: 3}
+  - {fileID: 6170210654851723202, guid: 12e9acf928e82cb4386f4c7086f9c02e, type: 3}
+  - {fileID: -4454952677681592329, guid: c767511eec589e24e8569627eb60c89e, type: 3}
+  - {fileID: 3329334936084374862, guid: 5b17cfe20a86acc41aec17bea290a5fe, type: 3}
+  - {fileID: 309500518355366813, guid: d98492c91f7efa34990913cd771a3374, type: 3}
+  audioClip: {fileID: 8300000, guid: 526c75a37c6cb714b8d75a4b4a323fc8, type: 3}
+  secondsPerFrame: 0.3
+  likeCount: 421
+  commentCount: 683

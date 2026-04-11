@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceebf029ca9cc9c489e26d78952b2372, type: 3}
+  m_Name: DanceVideo
+  m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
+  title: Dancing to show the haters who's #BOSS
+  content: 14360
+  retint: 0
+  frames:
+  - {fileID: 21300000, guid: 0b4dbe0a14d39734da13c6f8f2f59ba8, type: 3}
+  - {fileID: 21300000, guid: 7f9ddd883b1125446807c0948ebfbcc8, type: 3}
+  - {fileID: 21300000, guid: 77e0ce03818d31041b0587785f6ccf32, type: 3}
+  - {fileID: 21300000, guid: 10ebd25eb12fadf4483ebd76058e15ee, type: 3}
+  - {fileID: 21300000, guid: 8870714f257ada547b9b900fb3287bfb, type: 3}
+  - {fileID: 21300000, guid: ad5b071ce24c13241a3d4cc4cb91b2b1, type: 3}
+  - {fileID: 21300000, guid: 04c0203bea8a73e4192a0af060deef23, type: 3}
+  - {fileID: 21300000, guid: 5be48ba417d5db349b30bddf1160980f, type: 3}
+  - {fileID: 21300000, guid: c25c72c387a57fd43b364c70889f404b, type: 3}
+  - {fileID: 21300000, guid: 7ee6b0bede65e2f4da8f8023f08d460e, type: 3}
+  - {fileID: 21300000, guid: d7a299ad96cdda54cba80077904a2d95, type: 3}
+  - {fileID: 21300000, guid: e3c7d8fe84a00464baee4ecf3bd119e7, type: 3}
+  - {fileID: 21300000, guid: cdfa55292c906924c9d4bc8e2ad30809, type: 3}
+  - {fileID: 21300000, guid: 919f0c349b72e634db3d92a67f721628, type: 3}
+  - {fileID: 21300000, guid: c680aa62d73f3da4ca5857f7b51574c9, type: 3}
+  - {fileID: 21300000, guid: 56dfd1d9c09e39e48a21ab200280b93a, type: 3}
+  audioClip: {fileID: 8300000, guid: 807bb0248a8b45342a8d326f118f0910, type: 3}
+  secondsPerFrame: 0.2
+  likeCount: 12000
+  commentCount: 30000
