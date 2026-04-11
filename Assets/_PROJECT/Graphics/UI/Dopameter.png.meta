@@ -1,22 +1,22 @@
 fileFormatVersion: 2
-guid: df22b7f8797a2394b88db4b4171aea2a
+guid: e6dcc528d7a03b946912a62ab8a8041a
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -6416300615557661654
-    second: dopameter_0
+      213: -4146133360674196711
+    second: Dopameter_0
   - first:
-      213: 1675138391316778439
-    second: dopameter_1
+      213: 4613492108873476501
+    second: Dopameter_1
   - first:
-      213: 1797051342065473725
-    second: dopameter_2
+      213: 1226508007722545258
+    second: Dopameter_2
   - first:
-      213: 8457483735618405234
-    second: dopameter_3
+      213: -8788368160495839456
+    second: Dopameter_3
   - first:
-      213: -5571865171928593979
-    second: dopameter_4
+      213: 5399532003363884598
+    second: Dopameter_4
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -58,7 +58,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -108,24 +108,11 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 4
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: dopameter_0
+      name: Dopameter_0
       rect:
         serializedVersion: 2
         x: 617
@@ -140,14 +127,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: a2cb09dc598b4f6a0800000000000000
-      internalID: -6416300615557661654
+      spriteID: 9133e95fca9f576c0800000000000000
+      internalID: -4146133360674196711
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dopameter_1
+      name: Dopameter_1
       rect:
         serializedVersion: 2
         x: 620
@@ -162,14 +149,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7cd4e0cdd794f3710800000000000000
-      internalID: 1675138391316778439
+      spriteID: 599a87331aa660040800000000000000
+      internalID: 4613492108873476501
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dopameter_2
+      name: Dopameter_2
       rect:
         serializedVersion: 2
         x: 728
@@ -184,14 +171,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: db893f6aca860f810800000000000000
-      internalID: 1797051342065473725
+      spriteID: a607972e88e650110800000000000000
+      internalID: 1226508007722545258
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dopameter_3
+      name: Dopameter_3
       rect:
         serializedVersion: 2
         x: 623
@@ -206,14 +193,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 273cd2bd5a40f5570800000000000000
-      internalID: 8457483735618405234
+      spriteID: 027da4688b1790680800000000000000
+      internalID: -8788368160495839456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: dopameter_4
+      name: Dopameter_4
       rect:
         serializedVersion: 2
         x: 632
@@ -228,8 +215,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 5c943daa522cca2b0800000000000000
-      internalID: -5571865171928593979
+      spriteID: 63e8bd5cfbdfeea40800000000000000
+      internalID: 5399532003363884598
       vertices: []
       indices: 
       edges: []
@@ -238,7 +225,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 5e97eb03825dee720800000000000000
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -248,11 +235,11 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      dopameter_0: -6416300615557661654
-      dopameter_1: 1675138391316778439
-      dopameter_2: 1797051342065473725
-      dopameter_3: 8457483735618405234
-      dopameter_4: -5571865171928593979
+      Dopameter_0: -4146133360674196711
+      Dopameter_1: 4613492108873476501
+      Dopameter_2: 1226508007722545258
+      Dopameter_3: -8788368160495839456
+      Dopameter_4: 5399532003363884598
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
