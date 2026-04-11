@@ -1,6 +1,5 @@
 using System;
 using System.Collections.Generic;
-using _PROJECT.Scripts.Dating;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
@@ -8,17 +7,19 @@ using Random = UnityEngine.Random;
 
 namespace _PROJECT.Scripts
 {
-    public class ImageSwipeApp : App
+    public class VideoSwipeApp : App
     {
         public RectTransform video;
-        public List<ProfileContent> contents = new List<ProfileContent>();
-        public ProfileContentShower currentContentPlayer,nextContent;
-        public ProfileContent queuedContent;
+        public List<VideoSwipeContent> contents = new List<VideoSwipeContent>();
+        public VideoSwipeContentPlayer currentContentPlayer,nextContentPlayer;
+        public VideoSwipeContent queuedContent;
         public bool preloaded = false;
         public float ignoreSwipesCD = 0.01f;
+        public TMP_Text likeCountText;
+        public TMP_Text commentCountText;
         public TMP_Text titleText;
 
-        public virtual ProfileContent GetNextContent()
+        public virtual VideoSwipeContent GetNextContent()
         {
             return contents[Random.Range(0, contents.Count)];
         }
@@ -27,37 +28,25 @@ namespace _PROJECT.Scripts
         {
             base.SwipeFinished(swipeInteraction);
             Debug.Log("SwipeFinished " + swipeInteraction);
-            bool go = Mathf.Abs(swipeInteraction.x) > 0.2f;
-            bool left = go && swipeInteraction.x < 0f;
-            bool right = go && swipeInteraction.x > 0f;
-            bool bugged = Random.value < Difficulty.bugFrequency;
-            if (Random.value < Difficulty.bugFrequency)
+            bool goUp = swipeInteraction.y > 0.3f;
+            if (goUp)
             {
-                left = !left;
-                right = !right;
+                commentCountText.text = "";
+                likeCountText.text = "";
+                titleText.text = "";
             }
-            if (Random.value < Difficulty.bugFrequency)
-            {
-                go = !go;
-            }
-
-            float sign = 0;
-            if (left)
-            {
-                sign = -1;
-            }
-            else if (right)
-            {
-                sign = 1;
-            }
-            video.DOAnchorPosX(sign * (video.rect.width), 0.2f).OnComplete(() =>
+            video.DOAnchorPosY(goUp ? 1f * video.rect.height : 0f, 0.2f).OnComplete(() =>
                 {
-                    if (!go) return;
+                    commentCountText.text = queuedContent.commentCount.ToString();
+                    likeCountText.text = queuedContent.likeCount.ToString();
+                    titleText.text = queuedContent.title;
+                    if (!goUp) return;
                     video.anchoredPosition = new Vector2(video.anchoredPosition.x, 0);
-                    currentContentPlayer.InitProfile(queuedContent);
+                    currentContentPlayer.InitVideoFrame(queuedContent);
+                    currentContentPlayer.Play();
+                    Debug.Log("Reset swipe interaction y");
                     preloaded = false;
                     ignoreSwipesCD = 0.01f;
-                    titleText.text = queuedContent.title;
                 }
             );
         }
@@ -71,13 +60,12 @@ namespace _PROJECT.Scripts
         {
             if (ignoreSwipesCD > 0) return;
             base.Swiping(swipeProgress);
-            video.anchoredPosition = new Vector2((swipeProgress.x-0.5f)*video.rect.width, 0);
+            video.anchoredPosition = new Vector2(video.anchoredPosition.x, swipeProgress.y*video.rect.height);
             if (preloaded) return;
             Debug.Log("Preloading");
             queuedContent = GetNextContent();
             preloaded = true;
-            nextContent.InitProfile(queuedContent);
-            titleText.text = "";
+            nextContentPlayer.InitVideoFrame(queuedContent);
         }
     }
 }
