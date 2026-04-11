@@ -14,19 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
   title: They never saw it coming...
   content: 6272
+  retint: 0
   frames:
-  - {fileID: -7798266039770368857, guid: 5c49064bb69325e4b9bcfac06324c293, type: 3}
-  - {fileID: 2530915623940267177, guid: 9e5c048192098314082bc76af95447ab, type: 3}
-  - {fileID: -4732845462039319125, guid: 05c276ec1b934dc46907595b883f8e54, type: 3}
-  - {fileID: 1066040003869847959, guid: 781b8556b998c934caa05cd856855ea7, type: 3}
-  - {fileID: -8873641717000328547, guid: fb56183defef9114eb5a084f0f5b46c6, type: 3}
-  - {fileID: -6633134051911113598, guid: 336820e8affc2b047a8698a86b5a94a1, type: 3}
-  - {fileID: 2082340619998869638, guid: d56697c129107a7499238790fcb5e6ed, type: 3}
-  - {fileID: 6170210654851723202, guid: 12e9acf928e82cb4386f4c7086f9c02e, type: 3}
-  - {fileID: -4454952677681592329, guid: c767511eec589e24e8569627eb60c89e, type: 3}
-  - {fileID: 3329334936084374862, guid: 5b17cfe20a86acc41aec17bea290a5fe, type: 3}
-  - {fileID: 309500518355366813, guid: d98492c91f7efa34990913cd771a3374, type: 3}
+  - {fileID: 4093529123795720158, guid: 9e51fd097a1c3424cbd34c1a2b30838a, type: 3}
+  - {fileID: 4093529123795720158, guid: 9e51fd097a1c3424cbd34c1a2b30838a, type: 3}
+  - {fileID: -3218644999118768396, guid: 37729fb2392415f40bf052c08dca4041, type: 3}
+  - {fileID: 1177578112082225661, guid: 67e9fa9d3ae6da04cbc1df2627a157ed, type: 3}
+  - {fileID: 1177578112082225661, guid: 67e9fa9d3ae6da04cbc1df2627a157ed, type: 3}
+  - {fileID: 1563620848058282944, guid: 6a0f5ce1e040e0341b9bfaba19533286, type: 3}
+  - {fileID: -587994349203448363, guid: bcc56af430f67f745a3c0856c2108afa, type: 3}
+  - {fileID: 4136386825969600437, guid: 6bc0e9ae7c3a4cc48824b0fb0b72b8e5, type: 3}
+  - {fileID: 4136386825969600437, guid: 6bc0e9ae7c3a4cc48824b0fb0b72b8e5, type: 3}
+  - {fileID: 1470945917793084647, guid: f88c8396a2331d64481c1cc8de9a04ca, type: 3}
+  - {fileID: -118542632194109722, guid: 8215583ce980b7a4e9296e2eb8054678, type: 3}
+  - {fileID: 4817750937459914405, guid: 0ed54f60c37453c4fb79f296593093c0, type: 3}
+  - {fileID: -8689684643704825844, guid: f5d7b73b1ad53724d9473b812449c7db, type: 3}
+  - {fileID: 5978601444562118800, guid: 18444153579821147a2688da27e8c5d4, type: 3}
+  - {fileID: -118542632194109722, guid: 8215583ce980b7a4e9296e2eb8054678, type: 3}
+  - {fileID: 4817750937459914405, guid: 0ed54f60c37453c4fb79f296593093c0, type: 3}
+  - {fileID: -8689684643704825844, guid: f5d7b73b1ad53724d9473b812449c7db, type: 3}
+  - {fileID: 5978601444562118800, guid: 18444153579821147a2688da27e8c5d4, type: 3}
   audioClip: {fileID: 8300000, guid: 526c75a37c6cb714b8d75a4b4a323fc8, type: 3}
-  secondsPerFrame: 0.3
+  secondsPerFrame: 0.06666667
   likeCount: 421
   commentCount: 683

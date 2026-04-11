@@ -36,6 +36,7 @@ public enum ContentDescription
     Storytime = 0b10000000000,
     Humour = 0b100000000000,
     Entertainment = 0b1000000000000,
-    Fitness =  0b10000000000000
+    Fitness =  0b10000000000000,
+    Animals = 0b100000000000001,
     // TODO: Add more here!
 }

@@ -28,6 +28,5 @@ public class DopamineVFXManager : MonoBehaviour
         dopamineBar.material.SetFloat(BaseLevel,dopamine);
         hand.localPosition = new Vector3(Mathf.PerlinNoise(Time.time*shakingFrequency+2,dopamine+1.2125f),Mathf.PerlinNoise(Time.time*shakingFrequency,dopamine)) * (dopamine * 3 * shakingIntensity);
         hand.rotation = Quaternion.Euler(new Vector3(hand.rotation.eulerAngles.x,hand.rotation.eulerAngles.y,Mathf.PerlinNoise(Time.time*dopamine*0.01f,dopamine)));
-        
     }
 }

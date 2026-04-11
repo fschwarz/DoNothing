@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceebf029ca9cc9c489e26d78952b2372, type: 3}
+  m_Name: BirdVideo
+  m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
+  title: I did NOT hear that coming!!!! #birdlife
+  content: 7168
+  retint: 1
+  frames:
+  - {fileID: 4093529123795720158, guid: 2db6d6b11327d464abfcd7fa69858c7b, type: 3}
+  - {fileID: 4093529123795720158, guid: 2db6d6b11327d464abfcd7fa69858c7b, type: 3}
+  - {fileID: -3218644999118768396, guid: 504192a2d154f3647ad5704321e991e8, type: 3}
+  - {fileID: -3218644999118768396, guid: 504192a2d154f3647ad5704321e991e8, type: 3}
+  - {fileID: 4093529123795720158, guid: 2db6d6b11327d464abfcd7fa69858c7b, type: 3}
+  - {fileID: 4093529123795720158, guid: 2db6d6b11327d464abfcd7fa69858c7b, type: 3}
+  - {fileID: 4093529123795720158, guid: 2db6d6b11327d464abfcd7fa69858c7b, type: 3}
+  - {fileID: -3218644999118768396, guid: 504192a2d154f3647ad5704321e991e8, type: 3}
+  - {fileID: -3218644999118768396, guid: 504192a2d154f3647ad5704321e991e8, type: 3}
+  - {fileID: 1177578112082225661, guid: 30194d6d923c9e74491c3613224ced58, type: 3}
+  audioClip: {fileID: 8300000, guid: 960eebcee673e6048a857a6f3f52d47a, type: 3}
+  secondsPerFrame: 0.3
+  likeCount: 123333
+  commentCount: 0

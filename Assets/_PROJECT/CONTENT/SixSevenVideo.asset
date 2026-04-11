@@ -14,13 +14,27 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
   title: I'm giving away a MILLION dollars if this video reaches 67 LIKES! #shareplease
   content: 2180
+  retint: 0
   frames:
-  - {fileID: 21300000, guid: 7dce87957c1aa5f43875f13d0c129cbf, type: 3}
-  - {fileID: 21300000, guid: 75c12c83c51889b44a68ddb8e3f6ffea, type: 3}
-  - {fileID: 21300000, guid: f642827915c67f14390c0e5eefe7ad5f, type: 3}
-  - {fileID: 21300000, guid: 76d04af7634985c4baf1be00510171c4, type: 3}
-  - {fileID: 21300000, guid: a883e923f6dfe694db243182be19afef, type: 3}
+  - {fileID: 4093529123795720158, guid: 359dd234fee64e7438065cd66c2c1bf4, type: 3}
+  - {fileID: 4093529123795720158, guid: 359dd234fee64e7438065cd66c2c1bf4, type: 3}
+  - {fileID: -3218644999118768396, guid: b2056aa0c17df6441b94e35631b6ab85, type: 3}
+  - {fileID: -3218644999118768396, guid: b2056aa0c17df6441b94e35631b6ab85, type: 3}
+  - {fileID: 1177578112082225661, guid: ec15505d74112204ab1a59d11ae0df4e, type: 3}
+  - {fileID: 1177578112082225661, guid: ec15505d74112204ab1a59d11ae0df4e, type: 3}
+  - {fileID: 4093529123795720158, guid: 359dd234fee64e7438065cd66c2c1bf4, type: 3}
+  - {fileID: 4093529123795720158, guid: 359dd234fee64e7438065cd66c2c1bf4, type: 3}
+  - {fileID: -3218644999118768396, guid: b2056aa0c17df6441b94e35631b6ab85, type: 3}
+  - {fileID: -3218644999118768396, guid: b2056aa0c17df6441b94e35631b6ab85, type: 3}
+  - {fileID: 1177578112082225661, guid: ec15505d74112204ab1a59d11ae0df4e, type: 3}
+  - {fileID: 1177578112082225661, guid: ec15505d74112204ab1a59d11ae0df4e, type: 3}
+  - {fileID: 1563620848058282944, guid: 9a007058f28944642b6949085feaaa49, type: 3}
+  - {fileID: 1563620848058282944, guid: 9a007058f28944642b6949085feaaa49, type: 3}
+  - {fileID: 1563620848058282944, guid: 9a007058f28944642b6949085feaaa49, type: 3}
+  - {fileID: -587994349203448363, guid: 33862455e36d5964aaad3464ffd014bd, type: 3}
+  - {fileID: -587994349203448363, guid: 33862455e36d5964aaad3464ffd014bd, type: 3}
+  - {fileID: -587994349203448363, guid: 33862455e36d5964aaad3464ffd014bd, type: 3}
   audioClip: {fileID: 8300000, guid: 526c75a37c6cb714b8d75a4b4a323fc8, type: 3}
-  secondsPerFrame: 0.4
+  secondsPerFrame: 0.06666667
   likeCount: 66
   commentCount: 1000

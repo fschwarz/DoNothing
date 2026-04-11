@@ -271,6 +271,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1795892849}
+  - {fileID: 1534484015}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &630926372
@@ -329,6 +330,10 @@ PrefabInstance:
       propertyPath: hand
       value: 
       objectReference: {fileID: 1795892849}
+    - target: {fileID: 9119334835058379630, guid: 27bc4dd745269e24496fc18731028999, type: 3}
+      propertyPath: dopamine
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 9119334835058379630, guid: 27bc4dd745269e24496fc18731028999, type: 3}
       propertyPath: shakingFrequency
       value: 8
@@ -1177,13 +1182,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1534484013}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.2, y: 0.29, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 3.6200001, y: 9.17, z: 0}
   m_LocalScale: {x: 2.1603615, y: 2.1603615, z: 2.1603615}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1254444242}
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 626283994}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1795892849 stripped
 Transform:
@@ -1281,4 +1286,3 @@ SceneRoots:
   - {fileID: 1994913351}
   - {fileID: 626283994}
   - {fileID: 630926372}
-  - {fileID: 1534484015}
