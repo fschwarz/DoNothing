@@ -26,6 +26,12 @@ namespace _PROJECT.Scripts
             return contents[Random.Range(0, contents.Count)];
         }
 
+		public override void Tap(Vector2 tapPosition)
+		{
+			base.Tap(tapPosition);
+            GameManager.Instance.LikeReward();
+		}
+        
         public override void SwipeFinished(Vector2 swipeInteraction)
         {
             base.SwipeFinished(swipeInteraction);
@@ -33,6 +39,7 @@ namespace _PROJECT.Scripts
             bool goUp = swipeInteraction.y > 3f;
             if (goUp)
             {
+                GameManager.Instance.SwipeReward();
                 commentCountText.text = "";
                 likeCountText.text = "";
                 titleText.text = "";
@@ -61,6 +68,7 @@ namespace _PROJECT.Scripts
         public override void Swiping(Vector2 swipeProgress)
         {
             if (ignoreSwipesCD > 0) return;
+
             base.Swiping(swipeProgress);
             video.anchoredPosition = new Vector2(video.anchoredPosition.x, swipeProgress.y);
             if (preloaded) return;
