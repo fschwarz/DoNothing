@@ -38,6 +38,7 @@ public class PointerSpriteSwapper : MonoBehaviour
             if (tapSound != null)
             {
                 audioSource.PlayOneShot(tapSound); 
+                GameManager.Instance.LikeReward();
             }
         }
         else if (Input.GetMouseButtonUp(0))
