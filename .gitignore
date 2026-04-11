@@ -126,3 +126,4 @@ Assets/Plugins/EdgarDev/Smart Console/Data/SC.Cache.asset
 
 # Local agent scratch space
 .agent/
+*.slnx
