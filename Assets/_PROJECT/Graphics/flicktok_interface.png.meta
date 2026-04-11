@@ -1,0 +1,962 @@
+fileFormatVersion: 2
+guid: ca3012b8f12ecb34b8fc550e00c1cb2b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8465200005049289525
+    second: flickflop_interface_0
+  - first:
+      213: 5755258059906400717
+    second: flickflop_interface_1
+  - first:
+      213: -4907559049205400406
+    second: flickflop_interface_2
+  - first:
+      213: 6085464808416521419
+    second: flickflop_interface_3
+  - first:
+      213: 34487467079008839
+    second: flickflop_interface_4
+  - first:
+      213: 860689271797678070
+    second: flickflop_interface_5
+  - first:
+      213: 5603707812752379164
+    second: flickflop_interface_6
+  - first:
+      213: -804139141627748835
+    second: flickflop_interface_7
+  - first:
+      213: -8575225851605624778
+    second: flickflop_interface_8
+  - first:
+      213: -4883781531556738130
+    second: flickflop_interface_9
+  - first:
+      213: 2493603977902547693
+    second: flickflop_interface_10
+  - first:
+      213: 7693980100922812630
+    second: flickflop_interface_11
+  - first:
+      213: 1455730023287524659
+    second: flickflop_interface_12
+  - first:
+      213: -7009402183201805802
+    second: flickflop_interface_13
+  - first:
+      213: 6485204514153534665
+    second: flickflop_interface_14
+  - first:
+      213: 5027814418144388600
+    second: flickflop_interface_15
+  - first:
+      213: -6213381148729737244
+    second: flickflop_interface_16
+  - first:
+      213: -6366128736326875132
+    second: flickflop_interface_17
+  - first:
+      213: -2160767408997124784
+    second: flickflop_interface_18
+  - first:
+      213: 8963090329388384465
+    second: flickflop_interface_19
+  - first:
+      213: -7555500932080732244
+    second: flickflop_interface_20
+  - first:
+      213: 2654358819088737540
+    second: flickflop_interface_21
+  - first:
+      213: 2159799746595548006
+    second: flickflop_interface_22
+  - first:
+      213: -3491268723240122172
+    second: flickflop_interface_23
+  - first:
+      213: 7940361549113483145
+    second: flickflop_interface_24
+  - first:
+      213: -247806036869701864
+    second: flickflop_interface_25
+  - first:
+      213: -6168993598779889829
+    second: flickflop_interface_26
+  - first:
+      213: 598306380248340579
+    second: flickflop_interface_27
+  - first:
+      213: -1835037810441785861
+    second: flickflop_interface_28
+  - first:
+      213: -2160878206709147680
+    second: flickflop_interface_29
+  - first:
+      213: 7298702618587387416
+    second: flickflop_interface_30
+  - first:
+      213: 6718259788794398903
+    second: flickflop_interface_31
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: flickflop_interface_0
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 1276
+        width: 41
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b0995dd8e6a7570800000000000000
+      internalID: 8465200005049289525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_1
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1277
+        width: 32
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc1cc6b76b8cedf40800000000000000
+      internalID: 5755258059906400717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_2
+      rect:
+        serializedVersion: 2
+        x: 1383
+        y: 1274
+        width: 7
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacbbddcb09d4ebb0800000000000000
+      internalID: -4907559049205400406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_3
+      rect:
+        serializedVersion: 2
+        x: 1391
+        y: 1274
+        width: 9
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bccaec6400ae37450800000000000000
+      internalID: 6085464808416521419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_4
+      rect:
+        serializedVersion: 2
+        x: 1408
+        y: 1285
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74282782b268a7000800000000000000
+      internalID: 34487467079008839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_5
+      rect:
+        serializedVersion: 2
+        x: 1414
+        y: 1273
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ff7d732558c1fb00800000000000000
+      internalID: 860689271797678070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_6
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 1272
+        width: 40
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1dcf24e09e54cd40800000000000000
+      internalID: 5603707812752379164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_7
+      rect:
+        serializedVersion: 2
+        x: 1375
+        y: 1274
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e5a4116bf17d4f0800000000000000
+      internalID: -804139141627748835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_8
+      rect:
+        serializedVersion: 2
+        x: 1108
+        y: 1208
+        width: 37
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 638dc4e758daef880800000000000000
+      internalID: -8575225851605624778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_9
+      rect:
+        serializedVersion: 2
+        x: 1184
+        y: 1212
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab82fa8292593cb0800000000000000
+      internalID: -4883781531556738130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_10
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1212
+        width: 17
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de2e1613b9f0b9220800000000000000
+      internalID: 2493603977902547693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_11
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1213
+        width: 6
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d8ad68232286ca60800000000000000
+      internalID: 7693980100922812630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_12
+      rect:
+        serializedVersion: 2
+        x: 1218
+        y: 1211
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d8cee4ebac33410800000000000000
+      internalID: 1455730023287524659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_13
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 1211
+        width: 19
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61aa86e0ad999be90800000000000000
+      internalID: -7009402183201805802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_14
+      rect:
+        serializedVersion: 2
+        x: 1251
+        y: 1211
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c491e14523100a50800000000000000
+      internalID: 6485204514153534665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_15
+      rect:
+        serializedVersion: 2
+        x: 1255
+        y: 1212
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f56516239266c540800000000000000
+      internalID: 5027814418144388600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_16
+      rect:
+        serializedVersion: 2
+        x: 1274
+        y: 1204
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4effadfd3c2a5c9a0800000000000000
+      internalID: -6213381148729737244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_17
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 1213
+        width: 14
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40884dcb4a7f6a7a0800000000000000
+      internalID: -6366128736326875132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_18
+      rect:
+        serializedVersion: 2
+        x: 1355
+        y: 1213
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0553c706d796302e0800000000000000
+      internalID: -2160767408997124784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_19
+      rect:
+        serializedVersion: 2
+        x: 1370
+        y: 1213
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d00fe48a2b436c70800000000000000
+      internalID: 8963090329388384465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_20
+      rect:
+        serializedVersion: 2
+        x: 1382
+        y: 1197
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca7f13bdee7752790800000000000000
+      internalID: -7555500932080732244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_21
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1213
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 405a536584d26d420800000000000000
+      internalID: 2654358819088737540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_22
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1213
+        width: 15
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66b6ec92d6629fd10800000000000000
+      internalID: 2159799746595548006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_23
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 1210
+        width: 33
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c847dff7958c8fc0800000000000000
+      internalID: -3491268723240122172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_24
+      rect:
+        serializedVersion: 2
+        x: 1463
+        y: 858
+        width: 69
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98f541352c4d13e60800000000000000
+      internalID: 7940361549113483145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_25
+      rect:
+        serializedVersion: 2
+        x: 1468
+        y: 774
+        width: 56
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81f1f2fe8bd9f8cf0800000000000000
+      internalID: -247806036869701864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_26
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 703
+        width: 54
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b57e013b105536aa0800000000000000
+      internalID: -6168993598779889829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_27
+      rect:
+        serializedVersion: 2
+        x: 1480
+        y: 625
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3685d8d9b7c9d4800800000000000000
+      internalID: 598306380248340579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_28
+      rect:
+        serializedVersion: 2
+        x: 1479
+        y: 539
+        width: 46
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfde43775d2a886e0800000000000000
+      internalID: -1835037810441785861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_29
+      rect:
+        serializedVersion: 2
+        x: 1473
+        y: 456
+        width: 55
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e7d73648b40302e0800000000000000
+      internalID: -2160878206709147680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_30
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 418
+        width: 350
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8165d168c533a4560800000000000000
+      internalID: 7298702618587387416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: flickflop_interface_31
+      rect:
+        serializedVersion: 2
+        x: 1144
+        y: 412
+        width: 103
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b881ebdead0c3d50800000000000000
+      internalID: 6718259788794398903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      flickflop_interface_0: 8465200005049289525
+      flickflop_interface_1: 5755258059906400717
+      flickflop_interface_10: 2493603977902547693
+      flickflop_interface_11: 7693980100922812630
+      flickflop_interface_12: 1455730023287524659
+      flickflop_interface_13: -7009402183201805802
+      flickflop_interface_14: 6485204514153534665
+      flickflop_interface_15: 5027814418144388600
+      flickflop_interface_16: -6213381148729737244
+      flickflop_interface_17: -6366128736326875132
+      flickflop_interface_18: -2160767408997124784
+      flickflop_interface_19: 8963090329388384465
+      flickflop_interface_2: -4907559049205400406
+      flickflop_interface_20: -7555500932080732244
+      flickflop_interface_21: 2654358819088737540
+      flickflop_interface_22: 2159799746595548006
+      flickflop_interface_23: -3491268723240122172
+      flickflop_interface_24: 7940361549113483145
+      flickflop_interface_25: -247806036869701864
+      flickflop_interface_26: -6168993598779889829
+      flickflop_interface_27: 598306380248340579
+      flickflop_interface_28: -1835037810441785861
+      flickflop_interface_29: -2160878206709147680
+      flickflop_interface_3: 6085464808416521419
+      flickflop_interface_30: 7298702618587387416
+      flickflop_interface_31: 6718259788794398903
+      flickflop_interface_4: 34487467079008839
+      flickflop_interface_5: 860689271797678070
+      flickflop_interface_6: 5603707812752379164
+      flickflop_interface_7: -804139141627748835
+      flickflop_interface_8: -8575225851605624778
+      flickflop_interface_9: -4883781531556738130
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
