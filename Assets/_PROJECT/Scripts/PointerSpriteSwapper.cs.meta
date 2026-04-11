@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 94777369b30bfa74485a85dab83a3c6d
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - hoverSprite: {fileID: 2395158100669332950, guid: 7dc7eff5baa97da48906c8bf7aa87cac, type: 3}
+  - tapSprite: {fileID: 8882705830517009397, guid: baece231146a1f149b2108b7c7d39d3e, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
