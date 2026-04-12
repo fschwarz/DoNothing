@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using Unity.VisualScripting;
 using UnityEngine;
 
@@ -19,14 +20,24 @@ public class GameManager : MonoBehaviour
 
     public int Points = 0;
 
+    [Header("Sounds")]
+    public AudioClip SwipeSound;
+
+    public AudioClip PleasedSound;
+
     private int ContentCounter = 0;
 
     private float ContentStartTime = 0f;
 
     private int ContentLikeCount = 0;
 
+    private AudioSource AudioSource;
+
+    private float LikeRewardValue = 0.05f;
+
     public void Start()
     {
+        AudioSource = GetComponent<AudioSource>();
         InvokeRepeating(nameof(PointsReward), 0, 0.5f);
     }
 
@@ -64,7 +75,8 @@ public class GameManager : MonoBehaviour
             DopamineDrainVelocity += drainDelta * Time.deltaTime;
         }
 
-        if (nextValue <= 0f || nextValue >= 1f)
+        // We don't want to lower dopamine in the first few seconds, so people have time to learn the mechanic
+        if (nextValue <= 0f || nextValue >= 1f || (TotalTime < 5 && DopamineDrainVelocity < 0))
             return;
 
         Dopamine = nextValue;
@@ -82,22 +94,33 @@ public class GameManager : MonoBehaviour
 
     public void LikeReward()
     {
-        Debug.Log("LIKE");
-        float defaultLikeReward = 0.1f;
-        int likesAllowed = 6;
+        // Debug.Log("LIKE");
+        int likesAllowed = 7;
 
-        DopamineDrainVelocity += defaultLikeReward - (ContentLikeCount * (defaultLikeReward / likesAllowed));
+        DopamineDrainVelocity += LikeRewardValue - (ContentLikeCount * (LikeRewardValue / likesAllowed));
         ContentLikeCount++;
     }
 
     public void SwipeReward()
     {
         float swipeDelta = TotalTime - ContentStartTime;
-        float swipeReward = swipeDelta >= 2 ? 0.4f : 0;
+        float swipeReward = swipeDelta >= 2 ? 0.5f : -LikeRewardValue;
         DopamineDrainVelocity += swipeReward;
+
+        // Audio volume starts decreasing at 50% dopamine
+        AudioSource.volume = Math.Min(GameManager.Instance.Dopamine * 2, 1);
+        AudioSource.PlayOneShot(SwipeSound);
+        if (swipeReward > 0)
+            StartCoroutine(PlaySoundWithDelay(PleasedSound, 0.5f));
 
         ContentLikeCount = 0;
         ContentCounter++;
         ContentStartTime = TotalTime;
+    }
+
+    private IEnumerator PlaySoundWithDelay(AudioClip sound, float delayTime)
+    {
+        yield return new WaitForSeconds(delayTime);
+        AudioSource.PlayOneShot(sound);
     }
 }

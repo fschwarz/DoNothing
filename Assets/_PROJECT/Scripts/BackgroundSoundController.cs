@@ -23,7 +23,7 @@ public class BackgroundSoundController : MonoBehaviour
 
         if (dopamine < 0.5)
         {
-            float nextValue = (1 - (dopamine * 2));
+            float nextValue = 1 - (dopamine * 2);
             badSource.volume = nextValue * 0.2f; // 0-20% volume
             breathingSource.volume = nextValue;
             defaultSource.volume = dopamine * 2;
