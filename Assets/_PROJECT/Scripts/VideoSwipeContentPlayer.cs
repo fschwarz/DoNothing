@@ -56,6 +56,7 @@ namespace _PROJECT.Scripts
 
         public void Update()
         {
+            audioSource.volume = GameManager.Instance.Dopamine;
             if (playing)
             {
                 playProgressTime += Time.deltaTime;

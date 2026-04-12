@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VideoSwipeContent
   title: I'm giving away a MILLION dollars if this video reaches 67 LIKES! #shareplease
   content: 2180
-  retint: 0
+  retint: 1
   frames:
   - {fileID: 21300000, guid: 359dd234fee64e7438065cd66c2c1bf4, type: 3}
   - {fileID: 21300000, guid: 359dd234fee64e7438065cd66c2c1bf4, type: 3}
@@ -30,6 +30,6 @@ MonoBehaviour:
   - {fileID: 21300000, guid: ec15505d74112204ab1a59d11ae0df4e, type: 3}
   - {fileID: 21300000, guid: ec15505d74112204ab1a59d11ae0df4e, type: 3}
   audioClip: {fileID: 8300000, guid: 526c75a37c6cb714b8d75a4b4a323fc8, type: 3}
-  secondsPerFrame: 0.06666667
+  secondsPerFrame: 0.2
   likeCount: 66
   commentCount: 1000

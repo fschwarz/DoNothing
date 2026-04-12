@@ -68,7 +68,7 @@ namespace _PROJECT.Scripts
         public override void Swiping(Vector2 swipeProgress)
         {
             if (ignoreSwipesCD > 0) return;
-
+            if(swipeProgress.magnitude < 1f) return;
             base.Swiping(swipeProgress);
             video.anchoredPosition = new Vector2(video.anchoredPosition.x, swipeProgress.y);
             if (preloaded) return;

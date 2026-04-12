@@ -33,6 +33,7 @@ public class ScreenInteractionHandler : MonoBehaviour
         }
         else if (Input.GetMouseButtonUp(0))
         {
+            if(!isSwipe) return;
             stopSwipePos = transform.InverseTransformPoint(Camera.main.ScreenToWorldPoint(Input.mousePosition));
             if ((stopSwipePos - startSwipePos).magnitude < swipeDeadzone)
             {
